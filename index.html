@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Group Chat</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="chat-area">
+        <div class="company">
+            <img src="/Media/logo.png" alt="">
+            <h1>Random Group Chat</h1>
+        </div>
+
+        <div class="messege-area">
+        </div>
+        
+        <div class="chat-typing">
+            <input type="text" placeholder="Chat from here" id="text">
+            <span>
+                <i class="ri-send-plane-2-fill send"></i>
+            </span>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascript/client.js"></script>
+</body>
+</html>

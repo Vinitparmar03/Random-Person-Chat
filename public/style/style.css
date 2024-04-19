@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.chat-area{
+    border: 1px solid;
+    max-width: 600px;
+    width: 100%;
+    background-color: #131214;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 6px;
+}
+
+.chat-area .company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.chat-area .company img{
+    width: 35px;
+}
+
+.chat-area .company h1{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.chat-area .messege-area{
+    margin-top: 10px;
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.chat-area .messege-area::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.chat-area .messege-area .messege{
+    width: 50%;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    overflow-wrap: break-word;
+    font-size: 14px;
+}
+
+.chat-area .messege-area .incoming{
+    
+    background-color: #D3473B;
+    color: #ffffffd2; 
+}
+
+.chat-area .messege-area{
+    margin-top: 25px;
+}
+
+
+.chat-area .messege-area .outgoing{
+    background-color: #332661;
+    color: #ffffffd0;
+    margin-left: auto;
+}
+
+.chat-area .messege-area .outgoing h4{
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.chat-area .messege-area .incoming h4{
+    position: absolute;
+    font-size: 14px;
+    top: -20px;
+    left: 10px;
+    opacity: .8;
+}
+
+
+.chat-area .chat-typing{
+    margin: 10px 0 0;
+    height: 42px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #2A292B;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.chat-area .chat-typing input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+.chat-area .chat-typing span{
+    background-color: #332661;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+}
+
+.chat-area .chat-typing input[type="text"]:focus{
+    outline: none;
+}
+
+
+.messege-join{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(243, 242, 242, 0.808);
+    color: rgb(24, 23, 23);
+    padding: 5px 0;
+    margin-top: 10px ;
+}
+
+
