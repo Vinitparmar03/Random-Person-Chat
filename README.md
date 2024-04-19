@@ -3,7 +3,7 @@
 This repository contains a simple broadcast chat application built using Socket.IO for real-time communication and Node.js as a server. The application allows multiple users to connect to a shared chat room where messages sent by one user are instantly broadcasted to all connected users.
 
 ## Preview
-![Stopwatch Preview](https://imgur.com/k1rGSEM)
+![Interface of Random Person Chat](https://i.imgur.com/k1rGSEM.png)
 
 ## Features
 
